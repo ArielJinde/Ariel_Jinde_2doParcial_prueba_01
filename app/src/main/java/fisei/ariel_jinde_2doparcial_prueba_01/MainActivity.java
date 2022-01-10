@@ -1,6 +1,6 @@
-package ariel.jinde_2doparcial_prueba_01;
+package fisei.ariel_jinde_2doparcial_prueba_01;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {

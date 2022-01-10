@@ -1,4 +1,4 @@
-package ariel.jinde_2doparcial_prueba_01;
+package fisei.ariel_jinde_2doparcial_prueba_01;
 
 import org.junit.Test;
 
