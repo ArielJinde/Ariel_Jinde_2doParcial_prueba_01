@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ariel_Jinde_2doParcial_prueba_01">
         <activity
+            android:name=".ahjs_flagquiz.AHJSMainActivity"
+            android:exported="false" />
+        <activity
             android:name=".AHJSPrincipal.AHJS_Principal"
             android:exported="false" />
         <activity
