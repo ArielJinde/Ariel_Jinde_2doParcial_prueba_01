@@ -6,25 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".AHJSPrincipal.AHJS_Principal">
 
-    <ImageView
-        android:id="@+id/imageView2"
+
+    <Button
+        android:id="@+id/button_jugar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="608dp"
+        android:text="Jugar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/picasion_com_78959d6ced1f6d04156b12f7229ec981" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/tvusernamemain"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/button_mantenimineto"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:gravity="center"
-        android:textSize="18sp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="276dp"
+        android:layout_marginBottom="488dp"
+        android:text="Mantenimiento "
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/button_jugar" />
 </androidx.constraintlayout.widget.ConstraintLayout>

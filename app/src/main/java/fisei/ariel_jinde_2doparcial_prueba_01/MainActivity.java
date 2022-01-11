@@ -10,7 +10,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import fisei.ariel_jinde_2doparcial_prueba_01.AHJSPrincipal.AHJSPrincipalMenu;
 import fisei.ariel_jinde_2doparcial_prueba_01.AHJSPrincipal.AHJS_Principal;
 import fisei.ariel_jinde_2doparcial_prueba_01.AHJSRegistroData.AHJS_Registro;
 import fisei.ariel_jinde_2doparcial_prueba_01.DataBase.AHJS_DBHelper;
