@@ -34,6 +34,6 @@ public class AHJS_DBHelper extends SQLiteOpenHelper {
                 "username text NOT NULL,clave_user text NOT NULL)");
         /*Hacemos un insert para tener un valkor insertado como predeterminado*/
         db.execSQL("insert into userstable(username,clave_user) values('admin','admin')");
-    
+
     }
 }
