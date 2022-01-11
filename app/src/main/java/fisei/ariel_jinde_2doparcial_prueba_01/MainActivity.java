@@ -11,7 +11,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import fisei.ariel_jinde_2doparcial_prueba_01.AHJSPrincipal.AHJSPrincipalMenu;
-import fisei.ariel_jinde_2doparcial_prueba_01.AHJSRegistroData.AHJSRegistroData;
+import fisei.ariel_jinde_2doparcial_prueba_01.AHJSPrincipal.AHJS_Principal;
+import fisei.ariel_jinde_2doparcial_prueba_01.AHJSRegistroData.AHJS_Registro;
 import fisei.ariel_jinde_2doparcial_prueba_01.DataBase.AHJS_DBHelper;
 
 public class MainActivity extends AppCompatActivity {
@@ -67,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                 if (usuario.equals(usua)&&contrasena.equals(pass)){
                     //si son iguales entonces vamos a otra ventana
                     //Menu es una nueva actividad empty
-                    Intent ven=new Intent(this, AHJSPrincipalMenu.class);
+                    Intent ven=new Intent(this, AHJS_Principal.class);
                     //lanzamos la actividad
                     startActivity(ven);
                     //limpiamos las las cajas de texto
@@ -90,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
     //metodo que nos envia a otra ventana
     public void RegistroData(View v){
         //creamos una variables e instanciamos al intent para que me muestra la clase
-        Intent rdata=new Intent(this, AHJSRegistroData.class);
+        Intent rdata=new Intent(this, AHJS_Registro.class);
         //lanzamos la actividad
         startActivity(rdata);
     }
